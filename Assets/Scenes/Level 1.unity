@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -804,13 +803,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameSession
       objectReference: {fileID: 0}
+    - target: {fileID: 1314850881564310761, guid: aac1baea48f33c4488685a3906dbd8ed, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3375592094526860055, guid: aac1baea48f33c4488685a3906dbd8ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 3375592094526860055, guid: aac1baea48f33c4488685a3906dbd8ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3375592094526860055, guid: aac1baea48f33c4488685a3906dbd8ed, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15700,21 +15703,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1311627372363908709, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311627372363908709, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3366062857737060831, guid: 7004b03147c52514cb18594eae68643a, type: 3}
       propertyPath: m_Name
       value: Ginger(Player)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3366062857737060831, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4332110947101903763, guid: 7004b03147c52514cb18594eae68643a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15755,22 +15746,6 @@ PrefabInstance:
     - target: {fileID: 4332110947101903763, guid: 7004b03147c52514cb18594eae68643a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5062845938549829404, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: m_Size.y
-      value: 0.7805538
-      objectReference: {fileID: 0}
-    - target: {fileID: 5062845938549829404, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5062845938549829404, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.014544964
-      objectReference: {fileID: 0}
-    - target: {fileID: 9055198339543809886, guid: 7004b03147c52514cb18594eae68643a, type: 3}
-      propertyPath: jumpSpeed
-      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16159,11 +16134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2174866210541877093, guid: 666a40489dcc04d41b33a16bfaf7e10d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.761332
+      value: -26.314041
       objectReference: {fileID: 0}
     - target: {fileID: 2174866210541877093, guid: 666a40489dcc04d41b33a16bfaf7e10d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.12518811
+      value: -0.13861537
       objectReference: {fileID: 0}
     - target: {fileID: 3525453566257540440, guid: 666a40489dcc04d41b33a16bfaf7e10d, type: 3}
       propertyPath: m_Follow

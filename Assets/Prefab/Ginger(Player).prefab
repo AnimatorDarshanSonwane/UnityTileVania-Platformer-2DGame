@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 8095572212461339791}
   m_Layer: 8
   m_Name: Ginger(Player)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,8 +144,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.028697014, y: -0.03434351}
-  m_Size: {x: 0.7805538, y: 0.82015085}
+  m_Offset: {x: -0.028697014, y: -0.014544964}
+  m_Size: {x: 0.7805538, y: 0.7805538}
   m_Direction: 0
 --- !u!114 &3051573451504579812
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpSpeed: 25
+  jumpSpeed: 30
   climbSpeed: 2
   bullet: {fileID: 9040032838845992483, guid: 8128c0b53e031e4409417e4fed2ab49d, type: 3}
   gun: {fileID: 1273591499442522536}
@@ -220,8 +220,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!61 &8095572212461339791
 BoxCollider2D:
   m_ObjectHideFlags: 0
